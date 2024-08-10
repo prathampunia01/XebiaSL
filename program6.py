@@ -1,3 +1,4 @@
+#Write a function to check if a given string is a palindrome using a loop. For example, "madam" is a palindrome.
 def isPalindrome(s):
 
     s = ''.join(char.lower() for char in s if char.isalnum())

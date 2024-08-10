@@ -1,3 +1,5 @@
+#Write a function to generate the first n Fibonacci numbers using a loop. For example, if n = 6, the output should be [0, 1, 1, 2, 3, 5].
+
 def generate_fibonacci(n):
     if n <= 0:
         return []

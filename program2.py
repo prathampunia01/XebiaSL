@@ -1,3 +1,4 @@
+#Write a function to compute the factorial of a given number using a loop. For example, factorial(5) should return 120.
 def factorial(n):
     if n < 0:
         return None  # Factorial is not defined for negative numbers
